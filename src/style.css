@@ -1,0 +1,48 @@
+:root {
+  --main-color: #464ea3;
+  font-family: "Campton", "Spoqa Han Sans Neo", "sans-serif";
+
+  --font-regular: 18px;
+  --font-large: 32px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Shinb7Regular";
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+input {
+  border: none;
+  background-color: inherit;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.ir {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

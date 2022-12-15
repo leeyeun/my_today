@@ -1,0 +1,16 @@
+.menuNav {
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    li {
+      display: flex;
+      font-size: var(--font-regular);
+      padding: 24px 0px;
+      justify-content: center;
+      align-items: center;
+      font-weight: 600;
+      width: 160px;
+    }
+  }
+}

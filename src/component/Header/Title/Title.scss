@@ -1,0 +1,19 @@
+.titleNav {
+  h1 {
+    padding: 0px 0px 40px 30px;
+    font-size: var(--font-large);
+    color: var(--main-color);
+  }
+  .titleLine {
+    display: flex;
+    padding: 0 1.75rem;
+    .line {
+      background-color: var(--main-color);
+      width: 50%;
+      height: 7px;
+    }
+    .empty {
+      width: 1%;
+    }
+  }
+}
