@@ -1,0 +1,9 @@
+.mainWrap {
+  width: 50%;
+  margin: 0 auto;
+  padding: 30px 0px;
+  .todayDate {
+    font-size: var(--font-medium);
+    // font-weight: 600;
+  }
+}
