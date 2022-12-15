@@ -1,0 +1,24 @@
+.wishWrap {
+  font-size: var(--font-medium);
+  .wishP {
+    margin: 20px 0px;
+  }
+  .wishForm {
+    display: flex;
+    .wishInput {
+      width: 80%;
+      margin-right: 20px;
+      font-size: var(--font-medium);
+      border-bottom: 2px solid var(--main-color);
+      padding: 10px 0px 10px 10px;
+    }
+    button {
+      font-size: var(--font-regular);
+      background-color: var(--main-color);
+      color: white;
+      width: 120px;
+      padding: 10px 0px;
+      border-radius: 5px;
+    }
+  }
+}
